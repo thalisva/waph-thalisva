@@ -5,13 +5,10 @@
 
 ## Student
 
-**Name**: Phu Phung
+**Name**: Varsha Thalishetti
 
-**Email**: phungph@ucmail.uc.edu
-
-**Short-bio**: Phu Phung has keen interests in ethical hacking and secure software development. 
-
-![Phu's headshot](images/headshot.jpg)
+**Email**: thalisva@ucmail.uc.edu 
+![Phu's headshot](images/image1.jpg)
 
 ## Repository Information
 
