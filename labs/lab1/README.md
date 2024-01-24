@@ -11,7 +11,7 @@
 
 **Email**: thalisva@mail.uc.edu
 
-![Phu's headshot](images/image1.jpg)
+![Phu's headshot](/images/image1.jpg)
 
 #The Lab’s Overview
 This lab looks into multiple aspects of web development and comprehension of the HTTP protocol. We cover topics like HTTP requests using telnet, Wireshark analysis, PHP web applications, CGI web applications, and analyzing GET and POST requests. The results include hands-on experience with telnet, CGI, and PHP web application programming, as well as practical knowledge with tools like Wireshark."
