@@ -6,6 +6,9 @@
 *Name*: Varsha Thalishetti
 
 *Email*: thalisva@mail.uc.edu
+
+![Headshot]images/image1.jpg)
+
 ##  My_Repository_Information
 
 Repository's URL: [https://github.com/thalisva/waph-thalisva]
@@ -174,7 +177,7 @@ Here is the code:
 
 
 
-![Analogclock](image6.png)
+![Analogclock](images/image6.png)
 Caption: Screenshot of  Analog clock output
 
 ### Task 2: Ajax, CSS, jQuery, and Web API integration
