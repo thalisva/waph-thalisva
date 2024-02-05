@@ -20,7 +20,7 @@ I developed a HTML file named waph-thalisva.html with some basic tags, an image 
 
 ##### code of the HTML
 <!DOCTYPE html>
-<html>
+```<html>
 <head>
     <meta charset="utf-8">
 </head>
@@ -60,6 +60,8 @@ I developed a HTML file named waph-thalisva.html with some basic tags, an image 
 </body>
 </html>
 
+```
+
 
 
 ![HTML,image,form](images/image2.png)
@@ -72,12 +74,14 @@ Caption: Screenshot of HTML basic tags, an image, and a form tag.
    
 Here is the HTML code included;
 
-html
+```html
 <div>
     <b>Experiments with JavaScript code</b><br>
     <i>Inlined JavaScript</i>
     <div id="date" onclick="document.getElementById('date').innerHTML = Date()">Click here to show Date()</div>
 </div>
+
+```
 
 
 ![Inline without display of time and date](images/image3.png)
@@ -91,13 +95,15 @@ Caption: Screenshot displays the current date/time.
 
 Here is the HTML code included;
 
- html
+ ```html
 <script type="text/javascript">
     function displayTime() {
         document.getElementById('digital-clock').innerHTML = "Current time: " + new Date();
     }
     setInterval(displayTime, 500);
 </script>
+
+```
 
 
 ![Digital clock](images/image5.png)
@@ -111,6 +117,7 @@ Caption: Screenshot that displays digital clock
 code of email.js code included;
 
 email.js:
+```html
 var shown = false;
 
 function showhideEmail() {
@@ -118,11 +125,13 @@ function showhideEmail() {
         document.getElementById('email').innerHTML = "show my email";
         shown = false;
     } else {
-        var myemail = "<a href='mailto:venagaci" + "@" + "mail.uc.edu'>venagaci" + "@" + "mail.uc.edu</a>";
+        var myemail = "<a href='mailto:thalisva" + "@" + "mail.uc.edu'>thalisva" + "@" + "mail.uc.edu</a>";
         document.getElementById('email').innerHTML = myemail;
         shown = true;
     }
 }
+
+```
 
 
 
@@ -141,7 +150,7 @@ Caption: Screenshot of email after clicking on that
 
 Here is the code:
 
-html
+```html
 <div id="digital-clock"> </div>
 <canvas id="analog-clock" width="150" height="150" style="background-color: #999"></canvas>
 <script src="https://waph-uc.github.io/clock.js"></script>
@@ -161,6 +170,8 @@ html
     }
 </script>
 
+```
+
 
 
 ![Analogclock](image6.png)
@@ -172,7 +183,7 @@ Caption: Screenshot of  Analog clock output
 
 The code:
 
-html
+```html
 <div>
     <i>Ajax request</i>
     <br>
@@ -198,6 +209,8 @@ html
     </script>
 </div>
 
+```
+
 
 
 ![Ajax testing](images/fromsgetandpsot.png)
@@ -210,7 +223,7 @@ Caption: Screenshot of Ajax testing
 
 The code:
 
-html
+```html
     <!DOCTYPE html>
 <html>
 <head>
@@ -233,21 +246,22 @@ html
 </body>
 </html>
 
+```
 
 
-![Charan's headshot](images/css2a.png)
+![V's headshot](images/css2a.png)
 
 Caption: Screenshot of CSS background 
 
 
 
-![Charan's headshot](images/c1.png)
+![V's headshot](images/c1.png)
 
 Caption:  Screenshot of the CSS 
 
 
 ####  c. jQuery
-
+```html
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <div>
     <i>Ajax request</i>
@@ -282,8 +296,10 @@ Caption:  Screenshot of the CSS
     </script>
 </div>
 
+```
 
-![Charan's headshot](ajaxgetrequest.png)
+
+![V's headshot](images/ajaxgetrequest.png)
 Caption: Screenshot of the jquery for GET Ajax
 
 ![Post request](images/postrequest.png)
@@ -296,7 +312,7 @@ Caption: Screenshot of the jquery for POST Ajax
 
 The code:
 
-html
+```html
 
 $.get("https://v2.jokeapi.dev/joke/Programming?type=single",
     function(result) {
@@ -304,18 +320,23 @@ $.get("https://v2.jokeapi.dev/joke/Programming?type=single",
         $("#response").html("A programming joke of the day: " + result.joke);
     });
 
+```
+
 
 ![WebApi](images/d1.png)
 Caption: Screenshot of  the WebApi console 
 
 d2) Here is the code included:
-html
+
+```html
 
 async function guessAge(name) {
     const response = await fetch("https://api.agify.io/?name=" + name);
     const result = await response.json();
     $("#response").html("Hi " + name + ", your age should be " + result.age);
 }
+
+```
 
 
 
