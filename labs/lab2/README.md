@@ -7,7 +7,7 @@
 
 *Email*: thalisva@mail.uc.edu
 
-![Headshot]images/image1.jpg)
+![Headshot](images/image1.jpg)
 
 ##  My_Repository_Information
 
