@@ -3,21 +3,21 @@
 
 ## Student info: 
  
-*Name*: Charan Sai Venaganti
+*Name*: Varsha Thalishetti
 
 *Email*: venagaci@mail.uc.edu
 
-![Charan's headshot](/images/headshot.jpg)
+![photo](/images/image1.jpg)
 
 ## Repository information
 
-Repository's URL: [https://github.com/venagaci/waph-venagaci]
+Repository's URL: [https://github.com/thalisva/waph-venagaci]
 
 # Lab 2 - Front-end Web Development 
 
 ### Task 1: Basic HTML with forms, and JavaScript 
 
-####  a. HTML (5 pts) 
+####  a.HTML
 
 I developed a simple HTML file named waph-venagaci.html with basic tags , an image of my headshot and form.
 
