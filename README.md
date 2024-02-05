@@ -5,25 +5,23 @@
  
 *Name*: Varsha Thalishetti
 
-*Email*: venagaci@mail.uc.edu
+*Email*: thalisva@mail.uc.edu
 
 ![photo](/images/image1.jpg)
 
-## Repository information
+##  My_Repository_Information
 
-Repository's URL: [https://github.com/thalisva/waph-venagaci]
+Repository's URL: [https://github.com/thalisva/waph-thalisva]
 
 # Lab 2 - Front-end Web Development 
 
 ### Task 1: Basic HTML with forms, and JavaScript 
 
-####  a.HTML
+#### a.HTML
 
-I developed a simple HTML file named waph-venagaci.html with basic tags , an image of my headshot and form.
+I developed a HTML file named waph-thalisva.html with some basic tags, an image and some form tags.
 
-Here is code included: 
-
-html
+##### code of the HTML
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,12 +30,12 @@ html
 <body>
     <div id="top">
         <h1>Web Application Programming and Hacking</h1>
-        <h2>Front-end Web Development Lab</h2>
+        <h2>Front-End_Web_Development_Lab</h2>
         <h3>Instructor: Dr. Phu Phung</h3>
     </div>
     <div id="menubar">
-        <h3>Student: Charan Sai</h3>
-        <img src="/images/headshot.jpg" alt="My headshot" width="50">
+        <h2>Student: Varsha Thalishetti</h2>
+        <img src="/images/image1.jpg" alt="Photo" width="50">
 
         <div id="digital-clock"></div>
     </div>
@@ -46,7 +44,7 @@ html
         Using the <a href="https://www.w3schools.com/html">W3Schools template</a>
 
         <hr>
-        <b>Interactions with forms</b>
+        <b>Interactions with the forms</b>
         <div>
             <i>Form with an HTTP GET Request</i>
             <form action="/echo.php" method="GET">
@@ -67,11 +65,11 @@ html
 
 
 
-![Charan's headshot](images/T1indexhtmlpagess.png)
+![HTML,image,form](images/image2.png)
 
-Caption: Screenshot with with basic tags, an image of your headshot, and a form.
+Caption: Screenshot of HTML basic tags, an image, and a form tag.
 
-####  b. Simple JavaScript (15 pts)
+####  b. Simple JavaScript.
 
 - Inline JavaScript code in HTML tags to display the current date/time
    
@@ -85,10 +83,14 @@ html
 </div>
 
 
-![Charan's headshot](images/T1timeSS.png)
-Caption: Screenshot displays the current date/time
+![Inline without display of time and date](images/image3.png)
 
-- JavaScript code in a <script> tag to display a digital clock
+![Inline](images/image4.png)
+![Inline code](images/inlinedtimestamp.png)
+
+Caption: Screenshot displays the current date/time.
+
+##### JavaScript code in a <script> tag to display a digital clock
 
 Here is the HTML code included;
 
@@ -101,21 +103,17 @@ Here is the HTML code included;
 </script>
 
 
-![Charan's headshot](images/T1digitalclockSS.png)
-Caption: Screenshot displays the digital clock
+![Digital clock](images/image5.png)
+
+Caption: Screenshot that displays digital clock
 
 
 
+- It does have email.js file to display email when we click on that
 
-- JavaScript code in a JavaScript file and code in the HTML page to show/hide your email when clicked.
-
-Here is the email.js code included;
+code of email.js code included;
 
 email.js:
-
-html
-
-
 var shown = false;
 
 function showhideEmail() {
@@ -132,22 +130,19 @@ function showhideEmail() {
 
 
 
-![Charan's headshot](images/T1beforeclickingemail.png)
+![Photo of email](images/image5.png)
 
 
-Caption: Screenshot before clicking email
-
-
-
-![Charan's headshot](images/T1afterclickingemail.png)
-Caption: Screenshot after clicking email
+Caption: Screenshot ofemail.js before clicking on that
 
 
 
+![photo of email](images/image6.png)
+Caption: Screenshot of email after clicking on that 
 
-- Display an analog clock using an external JavaScript code and code in your HTML page.
+(- Display's an analog clock using an external JavaScript code,and code of HTML page).
 
-Here is the code included:
+Here is the code:
 
 html
 <div id="digital-clock"> </div>
@@ -171,17 +166,14 @@ html
 
 
 
-![Charan's headshot](images/T1clockouput.png)
-Caption: Screenshot of clock output
-
-
-
+![Analogclock](image6.png)
+Caption: Screenshot of  Analog clock output
 
 ### Task 2: Ajax, CSS, jQuery, and Web API integration
 
-####  a. Ajax (7.5 pts) 
+####  a. Ajax
 
-Here is the code included:
+The code:
 
 html
 <div>
@@ -211,14 +203,15 @@ html
 
 
 
-![Charan's headshot](images/T2ajaxss.png)
+![Ajax testing](images/fromsgetandpsot.png)
+
 Caption: Screenshot of Ajax testing
 
 
 
-#### b. CSS (7.5 pts) Inline, Internal , External
+#### b. CSS Inline, Internal , External
 
-Here is the html code included:
+The code:
 
 html
     <!DOCTYPE html>
@@ -228,28 +221,11 @@ html
     <link rel="stylesheet" href="https://waph-uc.github.io/style1.css">
     <meta charset="utf-8">
 
-    <style>
-        .button {
-            background-color: #4CAF50;
-            border: none;
-            color: white;
-            padding: 5px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 12px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-
-        .round {
-            border-radius: 8px;
-        }
-
-        #response {
-            background-color: #ff9800;
-        }
-    </style>
+   <style>
+    body{background-color: powderblue;}
+    h1 {color:blue;}
+  </style> 
+   
 </head>
 <body>
     <div id="top">
@@ -262,23 +238,18 @@ html
 
 
 
-![Charan's headshot](images/T2cssfirstSS.png)
-Caption: Screenshot of CSS 
+![Charan's headshot](images/css2a.png)
+
+Caption: Screenshot of CSS background 
 
 
 
-![Charan's headshot](images/T2csssecondSS.png)
+![Charan's headshot](images/c1.png)
 
-Caption:  Screenshot of CSS 
+Caption:  Screenshot of the CSS 
 
 
-####  c. jQuery (5 pts) 
-
-*i.* and *ii.*
-
-Here is the code included for *i.*   &     *ii.*
-
-html
+####  c. jQuery
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <div>
@@ -315,21 +286,18 @@ html
 </div>
 
 
+![Charan's headshot](ajaxgetrequest.png)
+Caption: Screenshot of the jquery for GET Ajax
 
-![Charan's headshot](images/T2jquerygetss.png)
-Caption: Screenshot of jquery for GET
-
-![Charan's headshot](images/T2jquerypostss.png)
-Caption: Screenshot of jquery for POST
-
+![Post request](images/postrequest.png)
+Caption: Screenshot of the jquery for POST Ajax
 
 
 
-#### d. Web API integration (10 pts)
 
-*i.*
+#### d. Web API integration 
 
-Here is the Code included:
+The code:
 
 html
 
@@ -340,14 +308,10 @@ $.get("https://v2.jokeapi.dev/joke/Programming?type=single",
     });
 
 
-![Charan's headshot](images/T2webapiconsoleSS.png)
-Caption: Screenshot of WebApi console 
+![WebApi](images/d1.png)
+Caption: Screenshot of  the WebApi console 
 
-
-*ii.*
-
-Here is the code included:
-
+d2) Here is the code included:
 html
 
 async function guessAge(name) {
@@ -358,5 +322,5 @@ async function guessAge(name) {
 
 
 
-![Charan's headshot](images/T2apifetchss.png)
-Caption: Screenshot of API Fetch
+![API fetch](images/d2.png)
+Caption: Screenshot of age function
