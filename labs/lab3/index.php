@@ -1,7 +1,7 @@
 <?php
 	session_start();    
-	//if (checklogin($_POST["username"],$_POST["password"])) {
-	 if (checklogin_mysql($_POST["username"],$_POST["password"])) {
+	// if (checklogin($_POST["username"],$_POST["password"])) {
+	if (checklogin_mysql($_POST["username"],$_POST["password"])) {
 ?>
 	<h2> Welcome <?php echo $_POST['username']; ?> !</h2>
 <?php		
@@ -25,10 +25,12 @@
 			printf("DATABASE COONECTION FAILED: %s\n", $mysqli->connect_error);
 			exit();
 		} 
-		  $sql ="SELECT * FROM users WHERE username='" . $username . "' ";
-		  $sql = $sql . " AND password = md5('" . $password . "')";
-		  echo "DEBUG>sql= $sql";
-		  $result = $mysqli->query($sql);
+		  $prepared_sql ="SELECT * FROM users WHERE username= ? AND password = md5(?);";
+		 $stmt = $mysqli->prepare($prepared_sql);
+		 $stmt-> bind_param("ss",$username,$password);
+		 $stmt->execute();
+		  // echo "DEBUG>sql= $sql";
+		  $result = $stmt->get_result();
 		  if($result->num_rows ==1)
 		  	return TRUE;
 		  return FALSE;
